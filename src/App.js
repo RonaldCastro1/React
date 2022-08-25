@@ -1,24 +1,72 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p> Hola
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <body>
+        <h1 className='App'>ESPECIES EN PELIGRO DE EXTINCION</h1>
+        <table class="table table-striped table-inverse table-responsive">
+          <thead className='table'>
+            <tr>
+              <th>#</th>
+              <th>Nombre</th>
+              <th>Especie</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">1</td>
+                <td>Oso Polar</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td scope="row">2</td>
+                <td>Rinoceronte De Java</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td scope="row">3</td>
+                <td>Tigre</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td scope="row">4</td>
+                <td>Canguro </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td scope="row">5</td>
+                <td>Atun Rojo</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td scope="row">6</td>
+                <td>Gorila De Montaña</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td scope="row">7</td>
+                <td>Pinguino</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td scope="row">8</td>
+                <td>Perro Salvaje Africano</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td scope="row">9</td>
+                <td>Mariposa Monarca</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td scope="row">10</td>
+                <td>Abejas</td>
+                <td></td>
+              </tr>
+            </tbody>
+        </table>
+        
+      </body>
   );
 }
 
