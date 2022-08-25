@@ -1,5 +1,4 @@
 import './App.css';
-
 function App() {
   return (
       <body>
@@ -9,14 +8,14 @@ function App() {
             <tr>
               <th>#</th>
               <th>Nombre</th>
-              <th>Especie</th>
+              <th></th>
             </tr>
             </thead>
             <tbody>
               <tr>
                 <td scope="row">1</td>
                 <td>Oso Polar</td>
-                <td></td>
+                <td> </td>
               </tr>
               <tr>
                 <td scope="row">2</td>
