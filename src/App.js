@@ -1,8 +1,8 @@
-import './App.css';
+import './css/bootstrap.min.css';
 function App() {
   return (
       <body>
-        <h1 className='App'>ESPECIES EN PELIGRO DE EXTINCION</h1>
+        <h1 className='text-center'>ESPECIES EN PELIGRO DE EXTINCION</h1>
         <table class="table table-striped table-inverse table-responsive">
           <thead className='table'>
             <tr>
